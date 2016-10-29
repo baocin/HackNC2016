@@ -33,6 +33,8 @@ const homeController = require('./controllers/home');
 const userController = require('./controllers/user');
 const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
+const scraperController = require('./controllers/scraper');
+
 
 /**
  * API keys and Passport configuration.
@@ -213,6 +215,13 @@ app.get('/auth/pinterest/callback', passport.authorize('pinterest', { failureRed
   res.redirect('/api/pinterest');
 });
 
+
+/**
+ * The Scraper 
+ */
+app.get('/scrape', scraperController.scrape);
+
+
 /**
  * Error Handler.
  */
@@ -224,5 +233,6 @@ app.use(errorHandler());
 app.listen(app.get('port'), () => {
   console.log('%s Express server listening on port %d in %s mode.', chalk.green('✓'), app.get('port'), app.get('env'));
 });
+
 
 module.exports = app;
