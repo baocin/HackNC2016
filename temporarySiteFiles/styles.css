@@ -1,0 +1,9 @@
+   /* css to style all the following elements*/
+   
+   html,
+   body,
+   #mapDiv {
+     padding: 0;
+     margin: 0;
+     height: 100%;
+   }
