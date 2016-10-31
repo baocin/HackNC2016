@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--The viewport meta tag is used to improve the presentation and behavior of the samples 
+      on iOS devices-->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title>I Want My Data Points on the Map</title>
+  <!--Link to the claro style from underlying dojo toolkit.  For more info: https://dojotoolkit.org/reference-guide/1.10/dijit/themes.html-->
+  <link rel="stylesheet" href="http://js.arcgis.com/3.14/dijit/themes/claro/claro.css">
+  <!-- Link to Esri css to style widgets, including the map.  More information at: https://developers.arcgis.com/javascript/jshelp/css.html -->
+  <link rel="stylesheet" href="http://js.arcgis.com/3.14/esri/css/esri.css">
+  <!--Access the ArcGIS API for Javascript via the CDN. https://developers.arcgis.com/javascript/jshelp/intro_firstmap_amd.html#step2 .  The API is built on top of Dojo.  For more information check out: https://dojotoolkit.org/-->
+  <script src="http://js.arcgis.com/3.14/"></script>
+  <script src="script.js"></script>
+
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="snap.js"></script>
+  <script src="http://www.tweecool.com/demo/tweecool.min.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<!--Apply the claro css class to the html body-->
+
+<body class="claro">
+    
+    <div id="">
+        <section id="container">
+		<img src= "images/MLH_Logo.png" alt="MLH Logo" height="80" width="140">
+		<div class="bar">
+		<nav id ="nav_list">
+			<ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="lastitem" href="heatmap.html">Heat Map</a></li>
+			</ul>
+		</nav>
+		</div>
+    </section>
+    </div>
+  <!--a div to contain the map-->
+  <div id="sidebar" style="width:260px;height:80%;overflow-y:scroll;padding:0.5em;background-color:white;margin:0.5em;margin-right:1em;"></div>
+  <div id="mapDiv">
+  </div>
+
+
+
+
+
+
+
+</body>
+    
+
+</html>

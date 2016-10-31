@@ -1,0 +1,86 @@
+   /* css to style all the following elements*/
+  
+* {
+box-sizing: border-box;
+}
+
+
+ 
+   html,
+   body,
+    {
+     padding: 0;
+     margin: 0;
+     height: 100%;
+	width:100%;
+ 	background-color: #003366; 
+	overflow:hidden; 
+}
+#mapDiv {
+
+position:absolute;
+top:90px;
+left:10px;
+right:10px;
+bottom:10px;
+	min-height:400px;
+	background-color:#003366;
+}
+#container{
+
+
+min-width:300px;	margin-left:auto;
+	margin-right:auto;
+    background-color: #003366;
+
+}
+section img{
+	margin:0px;
+	padding-left:0px;
+	margin-right:1em;
+	float:left;
+	background-color:white;
+}
+div.bar{
+	background-color:#003366;
+	color:white;
+	border-bottom: 2px solid white;
+	margin: 0px;
+	margin-left:auto;
+	height: 80px;
+	min-width:400px;
+	}
+#nav_list ul{
+	list-style-type: none;
+	margin-top:0px;
+	margin-right:auto;
+	margin-left:auto;
+	min-width:400px;
+
+padding-top:27px;
+	padding-left:3em;
+}
+#nav_list ul li{
+	float: left;
+   
+}
+#nav_list ul li a{
+	text-align:center;
+	font-size: 120%;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	display:block;
+
+	min-width:100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 10px;
+	background-color: #003366;
+	color: white;
+	font-weight: bold;
+	padding:0 1.5em;
+	border-right: 2px solid white;
+}
+#nav_list ul li a.lastitem{
+	border-right:none;
+}
